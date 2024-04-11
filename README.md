@@ -4,7 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve --configuration=development,pt` for a dev server in portuguese, switch to `en` to a englich version. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+The db.json must be observed also, tun `json-server --watch db.json` to run de server in  `http://localhost:2000/`
 
 ## Code scaffolding
 
